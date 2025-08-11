@@ -1,0 +1,37 @@
+{
+  "name": "startracker",
+  "version": "0.1.0",
+  "description": "A bot that track stars of a repo",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LibreSign/stars-tracker.git"
+  },
+  "keywords": [
+    "stars",
+    "tracker",
+    "github",
+    "git"
+  ],
+  "author": "Vitor Mattos",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/LibreSign/stars-tracker/issues"
+  },
+  "homepage": "https://github.com/LibreSign/stars-tracker#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "i18next": "^25.3.4",
+    "i18next-fs-backend": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": "^22.0.0",
+    "npm": "^11.0.0"
+  }
+}

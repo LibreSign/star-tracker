@@ -1,0 +1,13 @@
+{
+    "star": {
+        "emoji": {
+            "created": "😃",
+            "deleted": "😞"
+        },
+        "prefix": {
+            "created": "New star",
+            "deleted": "Star removed"
+        },
+        "message": "{{emoji}} {{prefix}} on [{{repo}}](https://github.com/{{repo}}) by [{{starrer}}](https://github.com/{{starrer}})! Now at `{{count}}` ⭐."
+    }
+}

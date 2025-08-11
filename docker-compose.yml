@@ -1,0 +1,11 @@
+services:
+  app:
+    image: node:lts
+    working_dir: "/app"
+    command: sh -c "npm i && npm run serve"
+
+    ports:
+      - "3000:3000"
+
+    volumes:
+      - ./:/app
